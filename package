@@ -1,0 +1,17 @@
+anaconda install
+https://www.anaconda.com/products/individual
+
+create conda environment : (Conda command promt)
+conda create -n yourenvname python=3.8 anaconda
+
+activate env :
+conda activate exp
+
+install package:
+conda install PyAudio
+sudo apt-get install mpg321
+pip install gTTS
+pip install SpeechRecognition
+
+main file run :
+python main.py
